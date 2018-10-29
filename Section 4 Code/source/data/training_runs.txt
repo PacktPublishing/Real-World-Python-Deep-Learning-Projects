@@ -1,0 +1,104 @@
+MacBook-Air-Piorko:source jkk$ python3 ./train.py default 10 128
+Using TensorFlow backend.
+Train on 11848 samples, validate on 1316 samples
+Epoch 1/10
+ - 59s - loss: 0.4707 - acc: 0.7726 - val_loss: 0.3054 - val_acc: 0.8921
+Epoch 2/10
+ - 45s - loss: 0.3303 - acc: 0.8644 - val_loss: 0.2610 - val_acc: 0.9088
+Epoch 3/10
+ - 40s - loss: 0.2918 - acc: 0.8839 - val_loss: 0.2451 - val_acc: 0.9096
+Epoch 4/10
+ - 39s - loss: 0.2706 - acc: 0.8970 - val_loss: 0.2359 - val_acc: 0.9210
+Epoch 5/10
+ - 39s - loss: 0.2595 - acc: 0.9000 - val_loss: 0.2282 - val_acc: 0.9240 
+Epoch 6/10
+ - 38s - loss: 0.2458 - acc: 0.9076 - val_loss: 0.2259 - val_acc: 0.9187
+Epoch 7/10
+ - 39s - loss: 0.2327 - acc: 0.9104 - val_loss: 0.2152 - val_acc: 0.9248
+Epoch 8/10
+ - 39s - loss: 0.2203 - acc: 0.9147 - val_loss: 0.2113 - val_acc: 0.9210
+Epoch 9/10
+ - 38s - loss: 0.2141 - acc: 0.9204 - val_loss: 0.2052 - val_acc: 0.9316 *
+Epoch 10/10
+ - 38s - loss: 0.2035 - acc: 0.9234 - val_loss: 0.2021 - val_acc: 0.9255
+Evaluation for default (epochs=10, batch_size=128)
+Train accuracy: 93.63%
+Test accuracy: 92.55%
+MacBook-Air-Piorko:source jkk$ python3 ./train.py default 10 32 
+Using TensorFlow backend.
+Train on 11848 samples, validate on 1316 samples
+Epoch 1/10
+ - 59s - loss: 0.3877 - acc: 0.8276 - val_loss: 0.2529 - val_acc: 0.9088
+Epoch 2/10
+ - 60s - loss: 0.2831 - acc: 0.8867 - val_loss: 0.2331 - val_acc: 0.9195
+Epoch 3/10
+ - 57s - loss: 0.2535 - acc: 0.9029 - val_loss: 0.2213 - val_acc: 0.9172
+Epoch 4/10
+ - 59s - loss: 0.2369 - acc: 0.9087 - val_loss: 0.2135 - val_acc: 0.9187
+Epoch 5/10
+ - 57s - loss: 0.2171 - acc: 0.9155 - val_loss: 0.2079 - val_acc: 0.9217
+Epoch 6/10
+ - 61s - loss: 0.2102 - acc: 0.9169 - val_loss: 0.2054 - val_acc: 0.9278
+Epoch 7/10
+ - 60s - loss: 0.1972 - acc: 0.9252 - val_loss: 0.1993 - val_acc: 0.9316 *
+Epoch 8/10
+ - 59s - loss: 0.1866 - acc: 0.9267 - val_loss: 0.1934 - val_acc: 0.9309
+Epoch 9/10
+ - 59s - loss: 0.1736 - acc: 0.9312 - val_loss: 0.1933 - val_acc: 0.9354
+Epoch 10/10
+ - 67s - loss: 0.1675 - acc: 0.9346 - val_loss: 0.1988 - val_acc: 0.9278
+Evaluation for default (epochs=10, batch_size=32)
+Train accuracy: 95.26%
+Test accuracy: 92.78%
+MacBook-Air-Piorko:source jkk$ python3 ./train.py default 10 64
+Using TensorFlow backend.
+Train on 11848 samples, validate on 1316 samples
+Epoch 1/10
+ - 66s - loss: 0.4355 - acc: 0.7973 - val_loss: 0.2905 - val_acc: 0.8959
+Epoch 2/10
+ - 66s - loss: 0.3188 - acc: 0.8712 - val_loss: 0.2573 - val_acc: 0.9157
+Epoch 3/10
+ - 55s - loss: 0.2822 - acc: 0.8888 - val_loss: 0.2324 - val_acc: 0.9210
+Epoch 4/10
+ - 55s - loss: 0.2587 - acc: 0.8982 - val_loss: 0.2192 - val_acc: 0.9278
+Epoch 5/10
+ - 56s - loss: 0.2364 - acc: 0.9059 - val_loss: 0.2095 - val_acc: 0.9255
+Epoch 6/10
+ - 52s - loss: 0.2269 - acc: 0.9132 - val_loss: 0.2075 - val_acc: 0.9271
+Epoch 7/10
+ - 50s - loss: 0.2144 - acc: 0.9159 - val_loss: 0.2020 - val_acc: 0.9309
+Epoch 8/10
+ - 51s - loss: 0.2002 - acc: 0.9218 - val_loss: 0.2083 - val_acc: 0.9233
+Epoch 9/10
+ - 51s - loss: 0.1910 - acc: 0.9257 - val_loss: 0.1990 - val_acc: 0.9331 
+Epoch 10/10
+ - 53s - loss: 0.1800 - acc: 0.9321 - val_loss: 0.1938 - val_acc: 0.9331 *
+Evaluation for default (epochs=10, batch_size=64)
+Train accuracy: 94.55%
+Test accuracy: 93.31%
+MacBook-Air-Piorko:source jkk$ python3 ./train.py default 10 256
+Using TensorFlow backend.
+Train on 11848 samples, validate on 1316 samples
+Epoch 1/10
+ - 42s - loss: 0.5502 - acc: 0.7292 - val_loss: 0.4085 - val_acc: 0.7888
+Epoch 2/10
+ - 47s - loss: 0.3727 - acc: 0.8359 - val_loss: 0.2963 - val_acc: 0.8898
+Epoch 3/10
+ - 42s - loss: 0.3199 - acc: 0.8710 - val_loss: 0.2769 - val_acc: 0.8967
+Epoch 4/10
+ - 42s - loss: 0.2936 - acc: 0.8832 - val_loss: 0.2443 - val_acc: 0.9081
+Epoch 5/10
+ - 41s - loss: 0.2767 - acc: 0.8915 - val_loss: 0.2329 - val_acc: 0.9202
+Epoch 6/10
+ - 41s - loss: 0.2638 - acc: 0.8947 - val_loss: 0.2403 - val_acc: 0.9065
+Epoch 7/10
+ - 42s - loss: 0.2516 - acc: 0.9018 - val_loss: 0.2212 - val_acc: 0.9202 *
+Epoch 8/10
+ - 41s - loss: 0.2429 - acc: 0.9072 - val_loss: 0.2216 - val_acc: 0.9248
+Epoch 9/10
+ - 41s - loss: 0.2308 - acc: 0.9109 - val_loss: 0.2112 - val_acc: 0.9248
+Epoch 10/10
+ - 41s - loss: 0.2223 - acc: 0.9147 - val_loss: 0.2143 - val_acc: 0.9187
+Evaluation for default (epochs=10, batch_size=256)
+Train accuracy: 92.44%
+Test accuracy: 91.87%
